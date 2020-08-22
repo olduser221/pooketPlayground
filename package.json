@@ -1,0 +1,16 @@
+{
+  "name": "ticket-playground",
+  "version": "1.0.0",
+  "description": "Tool to play with Supreme's Ticket Anti Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Christopher",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^5.2.1"
+  }
+}
