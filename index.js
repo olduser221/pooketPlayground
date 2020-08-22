@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 
 (async () => {
 
-  const browser = await puppeteer.launch({headless: false});
+  const browser = await puppeteer.launch({headless: false, args: ['--no-sandbox']});
   const page = await browser.newPage();
   await (await browser.pages())[0].close();
   await page.setViewport({width: 1125, height: 2436, isMobile: true, hasTouch: true});
